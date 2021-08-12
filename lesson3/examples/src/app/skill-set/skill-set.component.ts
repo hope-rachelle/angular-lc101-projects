@@ -9,8 +9,11 @@ export class SkillSetComponent implements OnInit {
    listHeading: string = 'Some Coding Skills I Know';
    skills: string[] = ['Loops', 'Conditionals', 'Functions', 'Classes', 'Modules', 'Git', 'HTML/CSS'];
    alternateColor: string = 'black';
-   bulletType: string = 'A';
+   bulletType: string = '1';
    changeColor: boolean = true;
+   reverse: boolean = true;
+   newColor: boolean = true;
+   buttonColor: string = 'goldenrod';
 
    constructor() { }
 

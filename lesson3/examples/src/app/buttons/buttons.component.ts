@@ -12,5 +12,8 @@ export class ButtonsComponent implements OnInit {
    constructor() { }
 
    ngOnInit() { }
+   changeActive(){
 
+      this.inactive = false;
+   }
 }
